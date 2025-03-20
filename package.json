@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://abhishekahirwar01.github.io/website-layout-builder",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
