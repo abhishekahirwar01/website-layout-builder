@@ -1,0 +1,107 @@
+.propertyEditor {
+  width: 300px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.propertyEditor h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.propertiesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.propertyField {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.propertyField label {
+  font-weight: 500;
+  color: #555;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.previewButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.previewButton:hover {
+  background-color: #138496;
+}
+
+.saveButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+}
+
+.clearButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background-color: #e0a800;
+}
+
+.closeButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #c82333;
+}

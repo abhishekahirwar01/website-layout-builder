@@ -1,0 +1,41 @@
+.elementContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.elementContent {
+  flex-grow: 1;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.editIcon {
+  cursor: pointer;
+  color: #007bff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.editIcon:hover {
+  color: #f80808;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.deleteIcon:hover {
+  color: #c82333;
+}
