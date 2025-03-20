@@ -22,7 +22,7 @@ A drag-and-drop website layout builder built with **React** and **Vite**. This t
 ## Live Demo
 
 Check out the live demo of the project:  
-👉 [Live Demo](https://website-layout-builder.vercel.app)
+👉 [Live Demo](https://abhishekahirwar01.github.io/website-layout-builder)
 
 ---
 
